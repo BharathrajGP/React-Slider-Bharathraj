@@ -44,7 +44,7 @@
     ]
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "ReactSliderBharath.js",
+  "main": "App.js",
   "devDependencies": {
     "gh-pages": "^6.1.1"
   },
