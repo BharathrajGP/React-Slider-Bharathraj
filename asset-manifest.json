@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/React-Slider-Bharathraj/static/css/main.812ca293.css",
+    "main.js": "/React-Slider-Bharathraj/static/js/main.a6aba311.js",
+    "static/js/787.346c7819.chunk.js": "/React-Slider-Bharathraj/static/js/787.346c7819.chunk.js",
+    "index.html": "/React-Slider-Bharathraj/index.html",
+    "main.812ca293.css.map": "/React-Slider-Bharathraj/static/css/main.812ca293.css.map",
+    "main.a6aba311.js.map": "/React-Slider-Bharathraj/static/js/main.a6aba311.js.map",
+    "787.346c7819.chunk.js.map": "/React-Slider-Bharathraj/static/js/787.346c7819.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.812ca293.css",
+    "static/js/main.a6aba311.js"
+  ]
+}
