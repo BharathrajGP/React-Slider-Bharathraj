@@ -1,0 +1,98 @@
+.main {
+    background-color: #E2DAFF;
+    border-radius: 20px;
+    padding: 16px;
+    margin: 16px;
+
+    .filterMainHeading {
+        display: flex;
+        justify-content: center;
+
+        .heading {
+          color: #011C25;
+          font-family: auto;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 300;
+          line-height: 120%;
+        }
+      }
+
+    .filterMainSubject {
+        display: flex;
+        align-items: center;
+        border-radius: 25px;
+        background: #FFF;
+        box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.25);
+        padding: 5px;
+        min-height: 40px;
+        margin-top: 18px;
+        margin-left: 4px;
+        margin-right: 4px;
+
+        .subjectMain {
+            width: 15%;
+
+            .subjectMainHeading {
+                color: #011C25;
+                font-family: auto;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 120%;
+                text-transform: uppercase;
+            }
+        }
+
+        .sliderMain {
+            width: 80%;
+
+            .slidecontainerSubjectNames {
+                display: flex;
+                width: 100%;
+
+                .subjectOptionsDiv {
+                    /* width: 16.67%; */
+                    display: flex;
+                    justify-content: center;
+
+                    .slidecontainerSubjectNamesSubject {
+                        text-transform: uppercase;
+                        color: #011C25;
+                        text-align: center;
+                        font-family: auto;
+                        font-size: 11px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 120%;
+                    }
+                }
+            }
+
+            .slidecontainer {
+                width: 100%;
+
+                .slider {
+                    -webkit-appearance: none;
+                    width: 100%;
+                    height: 7px;
+                    background: #D9D9D9;
+                    border-radius: 11px;
+                    outline: none;
+                    opacity: 1;
+                    -webkit-transition: .2s;
+                    transition: opacity .2s;
+                    cursor: pointer;
+                }
+
+                .slider::-webkit-slider-thumb {
+                    -webkit-appearance: none;
+                    appearance: none;
+                    border-radius: 11px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+    }
+}

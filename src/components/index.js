@@ -1,0 +1,1 @@
+export { ReactSliderBharath } from "./ReactSliderBharath";
