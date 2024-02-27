@@ -9,7 +9,7 @@ const ReactSliderBharath = (props) => {
 
     const updateValue = (value) => {
         let year = parseInt(value.target.value)
-        setSubjectName(input?.series[year - 1]);
+        setSubjectName(input?.series[year - 1] );
         setSubject(year);
     }
 
